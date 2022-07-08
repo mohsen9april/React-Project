@@ -17,7 +17,7 @@ const About = () => {
             return (
               <>
                 <div className='left row'>
-                  <img src={value.cover} alt='' />
+                  <img className='img-about' src={value.cover} alt='' />
                 </div>
 
                 <div className='right row'>
