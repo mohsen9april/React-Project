@@ -14,6 +14,8 @@
 
 .right-h {
     flex: 1;
+    position: relative;
+    background-color: var(--orange);
 }
 
 .header-menu li:hover {
@@ -107,4 +109,52 @@ flex-direction: column;
     background-color: transparent;
     width: 8rem;
     border: 2px solid var(--orange);
+}
+
+.right-h .btn {
+    position: absolute;
+    color: black;
+    right: 3rem;
+    top: 2rem;
+}
+
+.heart-rate {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: fit-content;
+    background-color: var(--darkGrey);
+    padding: 1rem;
+    align-items: start;
+    border-radius: 10px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+
+.heart-rate > span:nth-of-type(1){
+    color: white;
+}
+
+.heart-rate > :nth-child(1) {
+    width: 2rem;
+}
+.heart-rate > :nth-child(3) {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.hero-image {
+    position: absolute;
+    right: 8rem;
+    top: 10rem;
+    width: 23rem;
+}
+.heroimageback {
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+
 }
